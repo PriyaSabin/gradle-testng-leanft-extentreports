@@ -1,0 +1,29 @@
+[Test worker] INFO  letzautomate.utilities.LeanFTManager  - Initialize Lean FT SDK with   default configuration.
+[Test worker] INFO  letzautomate.utilities.LeanFTManager  - Initialization complete.
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Test one is started----
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: ZLRQq
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_ZLRQq_20200105091236531.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: T7rJJ
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_T7rJJ_20200105091244329.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Closing the window
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Closing the window
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - cleanup activity
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - The execution is completed for tc001 and the status is Passed
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Test two is started----
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: XbqU6
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_XbqU6_20200105091251632.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: K6qNK
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_K6qNK_20200105091300662.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Closing the window
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Closing the window
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - cleanup activity
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - The execution is completed for tc002 and the status is Passed
+[Test worker] INFO  letzautomate.utilities.TestcaseManager  - The Results location in shared drive:: E:\LetsDoIt\results\regression\20200105091305extent-reports

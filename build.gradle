@@ -1,0 +1,45 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'log4j', name: 'log4j', version: '1.2.11'
+    compile fileTree(include: ['*.jar'], dir: System.getenv("LEANFT_HOME")+"\\SDK\\Maven")
+    compile group: 'org.glassfish.tyrus', name: 'tyrus-container-grizzly-client', version: '1.15'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+}
+
+test{
+    systemProperty 'tcGroups', System.getProperty('tcGroups')
+
+    useTestNG() {
+        includeGroups << System.getProperty("tcGroups").toString();
+
+        options{
+            parallel = 'methods'
+            threadCount = 1
+        }
+    }
+    testLogging.showStandardStreams = true
+    testLogging.exceptionFormat = 'full'
+
+}
+
+
+
+task updateApplicationModel(dependsOn:jar) << {
+    javaexec {
+        main = "-jar";
+        args = [ System.getenv("LEANFT_HOME")+"/Tools/AppModelCodeGenerator/Java/appmodel-code-generator.jar",
+                 "src/main/java/com/letzautomate/appmodel/ApplicationName.tsrx",
+                 "-package", "com.letzautomate.appmodel", "-inPlace"]
+    }
+
+}

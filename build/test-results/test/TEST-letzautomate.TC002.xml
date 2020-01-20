@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="letzautomate.TC002" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-05T03:42:45" hostname="DESKTOP-OHCHA70" time="16.511">
+  <properties/>
+  <testcase name="tc002" classname="letzautomate.TC002" time="16.511"/>
+  <system-out><![CDATA[[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.TestcaseManager  - ---Execution is started for testcase Login Test two is started----
+E:\LetsDoIT\gradle-testng-leanft-extentreports\leanft\src\test\resources\application\runapplication.bat
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: XbqU6
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_XbqU6_20200105091251632.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After click the button :: 6
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Random String creation
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Random String creation :: K6qNK
+[TestNG-test=Gradle test-1] INFO  letzautomate.utilities.ExtentManager  - Screenshot Destination :: E:\LetsDoIT\gradle-testng-leanft-extentreports\build\extent-reports\PASS_K6qNK_20200105091300662.png
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - Before Closing the window
+[TestNG-test=Gradle test-1] INFO  letzautomate.pages.common.LeanFTBasePage  - After Closing the window
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
